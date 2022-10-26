@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .loginbox{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+section .loginbox img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px 0px 0px 50px;
+}
+.contentbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.formbox{
+    width: 50%;
+}
+h2{
+    color: #010101;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: inline-block;
+    letter-spacing: 0.5px;
+}
+p{
+    color: #010101;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+.inputbox{
+    margin-bottom: 20px;
+}
+span{
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: #010101;
+    font-weight: 300px;
+    letter-spacing: 0.5px;
+}
+input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 9px;
+    outline: none;
+    font-weight: 400;
+    font-size: 13px;
+    border: 1px solid #d9d9d9;
+    color: #010101;
+    background: transparent;
+    border-radius: 5px;
+}
+.btn {
+    background: #825BDD;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+}
+.remember{
+    margin-top: 0.9rem;
+}
+.remember input{
+    height: 1em;
+    width: 1em;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+.remember label{
+    font-size: 0.7rem;
+}
+.forget{
+    display: inline-block;
+    padding-left: 115px;
+    padding-top: 20px;
+    font-size: 0.7rem;
+    color: #825BDD;
+}
+
+.sign-up{
+    font-size: 14px;
+    margin-top: 20px;
+}
+a{
+    color: #825BDD;
+    text-decoration: none;
+}

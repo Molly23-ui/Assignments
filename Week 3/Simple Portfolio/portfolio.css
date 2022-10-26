@@ -1,0 +1,13 @@
+h5{
+    font-size: 18px;
+     font-weight: 700;
+    font-family: 'poppins', sans-serif;
+  }
+    .portfolio-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+      grid-gap: 2rem;
+      align-items: center;
+      margin-top: 4rem;
+    }
+  

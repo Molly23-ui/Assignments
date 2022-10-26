@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(#825BDD, #9BB0F1);
+}
+
+.contentbox {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+}
+
+.registrationbox{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.registrationbox .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.registrationbox form .users{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .users .inputbox{
+    margin: 20px 0 12px 0;
+    width: calc(100% / 2 - 20px);
+}
+
+.users .inputbox .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.users .inputbox input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    padding-left: 15px;
+    font-size: 14px;
+}
+
+.users .inputbox input:focus,
+.users .inputbox input:valid{
+    border-color: #825BDD;
+}
+
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(#825BDD, #9BB0F1);
+}
